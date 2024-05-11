@@ -6,9 +6,9 @@ In a movie theater, the chairs are arranged in a rectangular shape in r rows and
 Write a program that reads the projection type (text), number of rows and number of columns in the hall (integers) entered by the user and calculates the total ticket revenue for a full house. Print the result in 2 decimal places format.
 Sample input output
 input	    output		input	  output		input	   output
-Premiere  1440.00 	Normal  2047.50   Discount 1800.00
-10        leva      21      leva      12       leva
-12	 	              13                30
+Premiere  1440.00 	        Normal  2047.50                 Discount   1800.00
+10        leva                  21      leva                    12         leva
+12	 	                13                              30
 
 02.Problem: Summer outfit
 Summer is a season with very changeable weather and Victor needs your help. Write a program that, based on the time of day and the degrees, recommends Victor what clothes to wear. Your friend has different plans for each stage of the day, which also require a different appearance - you can see them from the table.
@@ -47,7 +47,7 @@ program to calculate how much it will cost them to plant a certain number of flo
 budget will be enough for them. Different flowers have different prices:
 
 flower                 Rose        Dahlia         Tulip       Narcissus     Gladiola
-Price per piece in     5	         3.80	          2.80	      3	            2.50
+Price per piece in     5	   3.80	          2.80	      3	            2.50
 leva
 
 The following discounts are available:
@@ -326,6 +326,57 @@ input output
 30    59 minutes after the start
 12
 29
+
+09. Problem: Ski trip
+Atanas decides to spend his vacation in Bansko and go skiing. Before he goes, however, he needs to book a hotel and calculate how much the stay will cost him. The following types of rooms are available, with the following prices for a stay:
+ "room for one person" – BGN 18.00 per night
+ "apartment" – BGN 25.00 per night
+ "president apartment" – BGN 35.00 per night
+According to the number of days he will stay in the hotel (example: 11 days = 10 nights) and the type of room he will choose, he can enjoy a different discount.
+The reductions are as follows:
+
+type of premises                 less than 10 days              between 10 and 15 days                   more than 15 days
+room for one person           does not use a discount           does not use a discount                 does not use a discount    
+apartment                      30% of the final price           35% of the final price                  50% of the final price
+president apartment           10% of the final price            15% of the final price                  20% of the final price
+
+After the stay, Atanas' assessment of the hotel's services may be positive or negative. If his assessment is positive, Atanas adds 25% of it to the price with the discount already deducted. If his assessment is negative, 10% will be deducted from the price.
+input
+The input is read from the console and consists of three lines:
+• First row - days of stay - an integer in the interval [0...365]
+• Second row - room type - "room for one person", "apartment" or "president apartment"
+• Third row - evaluation - "positive" or "negative"
+output
+One line should be printed to the console:
+• The price of his hotel stay, formatted to the second decimal place.
+
+Sample    input and output
+
+input	   output
+14         264.06
+apartment
+positive
+
+input       output
+30          730.80
+president 
+apartment
+negative	
+
+input       output
+12          247.50
+room for 
+one person
+positive
+
+input       output
+12          247.50
+room for 
+one person
+positive	
+
+
+
 
 
 
