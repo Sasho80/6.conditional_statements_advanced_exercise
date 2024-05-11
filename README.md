@@ -10,4 +10,39 @@ Premiere  1440.00 	Normal  2047.50   Discount 1800.00
 10        leva      21      leva      12       leva
 12	 	              13                30
 
-02.Problem: 
+02.Problem: Summer outfit
+Summer is a season with very changeable weather and Victor needs your help. Write a program that, based on the time of day and the degrees, recommends Victor what clothes to wear. Your friend has different plans for each stage of the day, which also require a different appearance - you can see them from the table.
+Exactly two lines are read from the console:
+• Degrees - whole number;
+• Time of day - text with three options "Morning", "Afternoon" or "Evening".
+
+Time of day / degrees          Morning            Afternoon	             Evening
+10 <= degrees <= 18	     Outfit = Sweatshirt     Outfit = Shirt          Outfit = Shirt
+                          Shoes = Sneakers	    Shoes = Moccasins        Shoes = Moccasins
+                          
+18 < degrees <= 24	      Outfit = Shirt        Outfit = T-Shirt          Outfit = Shirt
+                        Shoes = Moccasins	       Shoes = Sandals          Shoes = Moccasins
+                        
+degrees >= 25         	Outfit = T-Shirt        Outfit = Swim Suit         Outfit = Shirt
+                         Shoes = Sandals	       Shoes = Barefoot          Shoes = Moccasins
+
+As output, print to the console one line: "It's {degrees} degrees, get your {clothes} and {shoes}."
+
+Sample input output
+input	          output
+16              It's 16 degrees, get your
+Morning	        Sweatshirt and Sneakers.
+
+input	          output
+22              It's 22 degrees, get your 
+Afternoon	      T-Shirt and Sandals.
+
+input	          output
+28              It's 28 degrees, get your
+Evening	        Shirt and Moccasins.
+
+
+
+
+
+
