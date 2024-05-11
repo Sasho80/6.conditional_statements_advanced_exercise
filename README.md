@@ -123,6 +123,51 @@ input    output
 2000     Yes! You have 
 Winter   50.00 leva left.
 13
+
+05.Problem: Journey
+A young programmer has a certain budget and free time in a given season. Write a program that accepts as input the budget and the season, and outputs where the programmer will rest and how much he will spend.
+The budget determines the destination, and the season determines how much of the budget will be spent. If it is summer, he will rest at a campsite, and in winter at a hotel. If he is in Europe, regardless of the season, he will rest in a hotel. Each campsite or hotel, according to the destination, has its own price, which corresponds to a certain percentage of the budget:
+• At BGN 100 or less - somewhere in Bulgaria:
+o Summer - 30% of the budget;
+o Winter - 70% of the budget.
+• At BGN 1000 or less - somewhere in the Balkans:
+o Summer - 40% of the budget;
+o Winter - 80% of the budget.
+• For more than BGN 1,000 - somewhere in Europe:
+o When traveling in Europe, regardless of the season, will spend 90% of the budget.
+Login
+The input is read from the console and consists of two lines entered by the user:
+• Budget - real number;
+• One of the two possible seasons - "summer" or "winter".
+Exit
+Two lines should be printed to the console:
+• "Somewhere in [destination]" between "Bulgaria", "Balkans" and "Europe"
+• "{Type of vacation} - {Amount spent}":
+o Rest can be between "Camp" and "Hotel"
+o The amount must be formatted to the second decimal place 
+
+input    output
+50       Somewhere in Bulgaria
+summer	 Camp - 15.00
+
+input    output
+75       Somewhere in Bulgaria
+winter	 Hotel - 52.50
+
+input    output
+312      Somewhere in Balkans
+summer	 Camp - 124.80
+
+input    output
+678.53   Somewhere in Balkans
+winter	 Hotel - 542.82
+
+input    output
+1500     Somewhere in Europe
+summer	 Hotel - 1350.00
+
+
+
 	
 
 
