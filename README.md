@@ -135,11 +135,11 @@ o Summer - 40% of the budget;
 o Winter - 80% of the budget.
 • For more than BGN 1,000 - somewhere in Europe:
 o When traveling in Europe, regardless of the season, will spend 90% of the budget.
-Login
+input
 The input is read from the console and consists of two lines entered by the user:
 • Budget - real number;
 • One of the two possible seasons - "summer" or "winter".
-Exit
+output
 Two lines should be printed to the console:
 • "Somewhere in [destination]" between "Bulgaria", "Balkans" and "Europe"
 • "{Type of vacation} - {Amount spent}":
