@@ -80,7 +80,53 @@ input      output
 Narcissus  Not enough money, you need 
 119        50.55 leva more.
 360
+
+04.Problem: Fishing boat
+Tony and friends love to go fishing and are so passionate about fishing that they decide to go fishing by boat. The price for renting the vessel 
+depends on the season and the number of fishermen:
+Depending on the season:
+• The price for renting the ship in the spring is BGN 3,000;
+• The price for renting the ship in summer and autumn is BGN 4,200;
+• The price for renting the ship in winter is BGN 2,600.
+Depending on the number of the group, there is a different discount:
+• If the group is up to 6 people inclusive - 10% discount;
+• If the group is from 7 to 11 people inclusive - 15% discount;
+• If the group is 12 or more - 25% discount.
+Fishermen enjoy an additional 5% discount if they are an even number, unless it is autumn - then they do not have an additional discount, which is 
+charged after deducting the discount according to the above criteria.
+Write a program to calculate whether the fishermen will collect enough money.
+input
+Three lines are read from the console:
+• Group budget - whole number;
+• Season - text: "Spring", "Summer", "Autumn" or "Winter";
+• Number of fishermen - integer.
+output
+The following should be printed on the console:
+• If the budget is sufficient:
+"Yes! You have {the remaining money} leva left."
+• If the budget IS NOT sufficient:
+"Not enough money! You need {amount that does not reach} leva."
+Amounts must be formatted to two decimal places.
+
+Sample input and output
+input   output
+3000    Not enough money! 
+Summer  You need 570.00 leva.
+11	
+
+input    output
+3600     Not enough money! 
+Autumn   You need 180.00 leva.
+6	
+
+input    output
+2000     Yes! You have 
+Winter   50.00 leva left.
+13
 	
+
+
+
 
 
 
