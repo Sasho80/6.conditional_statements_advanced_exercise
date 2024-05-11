@@ -253,6 +253,87 @@ May     Apartment: 877.50 lv.
 15	Studio: 525.00 lv.
 
 08.Problem: On time for the exam
+A student must go to an exam at a specific time (for example, 9:30 a.m.). He comes to the exam hall at a given arrival time (eg 9:40). The student is considered to have arrived on time if he arrived at the time of the exam or up to half an hour before. If he arrived more than 30 minutes earlier, he was late. If he came after the exam time, he is late. Write a program that reads an exam time and an arrival time and prints whether the student was on time, whether he was early or late, and how many hours or minutes he was early or late.
+input
+4 integers (one per line) entered by the user are read from the console:
+• The first line contains the time of the exam - an integer from 0 to 23;
+• The second line contains the minute of the exam - an integer from 0 to 59;
+• The third line contains the arrival time - an integer from 0 to 23;
+• The fourth line contains the arrival minute - an integer from 0 to 59.
+output
+On the first line, print:
+• "Late" if the student arrives later than the exam time;
+• "On time", if the student arrives exactly at the time of the exam or up to 30 minutes earlier;
+• "Early" if the student arrives more than 30 minutes before the exam time.
+If the student arrives at least one minute after the exam time, print on the next line:
+• "mm minutes before the start" for arriving earlier by less than an hour;
+• "hh:mm hours before the start" to advance by 1 hour or more. Always print minutes with 2 digits, for example "1:05";
+• "mm minutes after the start" for a delay of less than an hour;
+• "hh:mm hours after the start" for a delay of 1 hour or more. Always print minutes with 2 digits, for example "1:03".
+
+Sample input and output
+input       output                 
+9           Late                        
+30          20 minutes after the start
+9
+50
+
+
+input       output  
+9           On time
+00          30 minutes before the start
+8
+30
+
+input    output
+16       Early
+00       1:00 hours before the start
+15
+00
+
+input    output
+9        Late
+00       1:30 hours after the start
+10
+30
+
+input   output
+14      On time
+00      5 minutes before the start
+13
+55
+
+input  output
+11     Early
+30     3:18 hours before the start
+8
+12
+
+input  output
+10     On time
+00
+10
+00
+
+input  output
+11     Early
+30     35 minutes before the start
+10
+55
+
+input output
+11    Late
+30    59 minutes after the start
+12
+29
+
+
+
+
+
+
+
+
 
 
 
