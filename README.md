@@ -64,7 +64,26 @@ To print to the console on one line:
 • If their budget is sufficient - "Hey, you have a great garden with {number of flowers} {type of flowers} and {remaining amount} leva left.";
 • If their budget is NOT enough - "Not enough money, you need {necessary amount} leva more.".
 Amount to be formatted to the second decimal place.
+
 Sample input and output
+input   output
+Roses   Not enough money, 
+55      you need 25.00 leva more.
+250	
+
+input   output
+Tulips  Hey, you have a great  garden with
+88      88 Tulips and 50.56 leva left.
+260	
+
+input      output
+Narcissus  Not enough money, you need 
+119        50.55 leva more.
+360
+	
+
+
+
 
 
 
