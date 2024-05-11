@@ -9,3 +9,5 @@ input	    output		input	  output		input	   output
 Premiere  1440.00 	Normal  2047.50   Discount 1800.00
 10        leva      21      leva      12       leva
 12	 	              13                30
+
+02.Problem: 
