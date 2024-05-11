@@ -252,6 +252,9 @@ input	output
 May     Apartment: 877.50 lv.
 15	Studio: 525.00 lv.
 
+08.Problem: On time for the exam
+
+
 
 
 
