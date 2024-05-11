@@ -41,6 +41,11 @@ input	          output
 28              It's 28 degrees, get your
 Evening	        Shirt and Moccasins.
 
+03.Problem: New house
+Marin and Nellie buy a house not far from Sofia. Nellie loves flowers so much that she convinces you to write a
+program to calculate how much it will cost them to plant a certain number of flowers and whether the available 
+budget will be enough for them. Different flowers have different prices:
+
 
 
 
