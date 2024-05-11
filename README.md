@@ -166,6 +166,8 @@ input    output
 1500     Somewhere in Europe
 summer	 Hotel - 1350.00
 
+06.Problem: 
+
 
 
 	
