@@ -166,7 +166,60 @@ input    output
 1500     Somewhere in Europe
 summer	 Hotel - 1350.00
 
-06.Problem: 
+06.Problem: Operations between numbers
+Write a program that reads two integers (N1 and N2) and an operator to perform a given mathematical operation. The possible operations are: Addition(+), Subtraction(-), Multiplication(*), Division(/) and Modular Division(%). Addition, subtraction and multiplication on the console should print the result and whether it is even or odd. In ordinary division - the result. In the case of modular division - the remainder. It should be noted that the divisor can be equal to 0 (zero), and is not divisible by zero. In this case, a special message should be printed.
+input
+3 lines entered by the user are read from the console:
+• N1 - integer;
+• N2 - integer;
+• Operator - one symbol among: "+", "-", "*", "/", "%".
+output
+To print one line to the console:
+• If the operation is addition, subtraction or multiplication:
+o "{N1} {operator} {N2} = {result} - {even/odd}"
+• If the operation is division:
+o "{N1} / {N2} = {result}" - result formatted to the second decimal place
+• If the operation is modular division:
+o "{N1} % {N2} = {remainder}"
+• In case of division by 0 (zero):
+o "Cannot divide {N1} by zero"
+
+Sample input and output
+input   output
+10      10 + 12 = 22 - even
+12
++	
+
+input   output
+10      10 - 1 = 9 - odd
+1
+-	
+
+input   output
+7       7 * 3 = 21 - odd
+3
+*	
+
+input   output
+123     123 / 12 = 10.25
+12
+/	
+
+input   output
+10      10 % 3 = 1
+3
+%	
+
+input   output
+112     Cannot divide 112 by zero
+0
+/	
+
+input   output
+112     Cannot divide 112 by zero
+0
+/	
+
 
 
 
