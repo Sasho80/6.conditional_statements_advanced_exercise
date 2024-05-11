@@ -218,7 +218,40 @@ input   output
 input   output
 112     Cannot divide 112 by zero
 0
-/	
+/
+
+07.Problem: Hotel room
+Hotel offers 2 types of rooms: studio and apartment. Write a program that calculates the total stay price for a studio and an apartment. 
+Prices depend on the month of stay:
+
+May and October            June and September             July and August
+Studio - BGN 50/night      Studio - BGN 75.20/night       Studio - BGN 76/night
+Apartment - BGN 65/night   Apartment - BGN 68.70/night    Apartment - BGN 77/night
+
+The following discounts are also available:
+• For studio, for more than 7 nights in May and October: 5% discount.
+• For studio, for more than 14 nights in May and October: 30% discount.
+• For studio, for more than 14 nights in June and September: 20% discount.
+• For an apartment, for more than 14 nights, regardless of the month: 10% discount.
+input
+The input is read from the console and contains exactly 2 lines entered by the user:
+• On the first line is the month - May, June, July, August, September or October;
+• On the second line is the number of overnight stays - an integer.
+output
+To print 2 lines to the console:
+• On the first line: "Apartment: {price for entire stay} lv."
+• On the second line: "Studio: {price for entire stay} lv."
+The price for the entire stay must be formatted to two decimal places.
+
+Sample  input and output
+input   output
+May     Apartment: 877.50 lv.
+15	Studio: 525.00 lv.
+
+input	output
+May     Apartment: 877.50 lv.
+15	Studio: 525.00 lv.
+
 
 
 
